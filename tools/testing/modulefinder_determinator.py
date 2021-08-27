@@ -14,7 +14,6 @@ REPO_ROOT = pathlib.Path(__file__).resolve().parent.parent.parent
 TARGET_DET_LIST = [
     "distributions/test_distributions",
     "test_nn",
-    "test_autograd",
     "test_cpp_extensions_jit",
     "test_jit_legacy",
     "test_dataloader",
